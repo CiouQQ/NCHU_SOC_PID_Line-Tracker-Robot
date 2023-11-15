@@ -28,9 +28,9 @@ byte motorSpeed = 130;
 
 
 //pid
-float Kp = 50 , Ki = 0, Kd = 0;                   //pid弯道参数参数
-float error = 0, P = 0, I = 0, D = 0, PID_value = 0;//pid直道参数
-float previous_error = 0, previous_I = 0;           //误差值
+float Kp = 50 , Ki = 0, Kd = 0;                   //pid彎道參數
+float error = 0, P = 0, I = 0, D = 0, PID_value = 0;//pid直線參數
+float previous_error = 0, previous_I = 0;           //誤差值
 int sensor[3] = {0, 0, 0};  
 static int initial_motor_speed = 100;                //初始速度
 
